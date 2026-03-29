@@ -1,0 +1,36 @@
+{
+  "name": "AtMoS - نظام التوازن الحيوي المتقدم",
+  "short_name": "AtMoS",
+  "description": "نظام ذكي لقياس نبضات القلب والتنفس وتحليل حالتك الصحية - يعمل 100% بدون إنترنت",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#080c10",
+  "theme_color": "#00c8e8",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["health", "medical", "wellness"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "/icon.svg",  "type": "image/svg+xml", "sizes": "any", "purpose": "any" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "بدء جلسة جديدة",
+      "short_name": "جلسة جديدة",
+      "url": "/?action=start-session",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "تفعيل التوازن",
+      "short_name": "توازن",
+      "url": "/?balance=1",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96" }]
+    }
+  ]
+}
