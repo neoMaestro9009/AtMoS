@@ -1,2 +1,0 @@
-# AtMoS
-PWA
